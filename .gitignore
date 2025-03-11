@@ -1,0 +1,55 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+*.venv
+*.env
+
+# Django & Database
+db.sqlite3
+*.sqlite3
+*.db
+
+# Logs & Debugging
+logs/
+*.log
+
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.iml
+*.sublime-workspace
+*.sublime-project
+
+# Environment Variables & Secrets
+.env
+.env.local
+*.pem
+*.key
+
+# Static & Media Files (Optional)
+staticfiles/
+media/
+*.bak
+
+# Compiled JavaScript & Bundled Output
+dist/
+build/
+*.map
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
