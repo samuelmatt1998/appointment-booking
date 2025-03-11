@@ -13,6 +13,8 @@ Ensure you have the following installed:
 ### Prerequisites
 - 📂 Project Structure
 
+
+```
 booking-appointment-system/
 │── app/                     # Django app directory
 │── booking/                 # Main Django project directory (settings, URLs, WSGI)
@@ -25,6 +27,8 @@ booking-appointment-system/
 │── requirements.txt         # Dependencies for the project
 │── README.md                # Documentation
 │── .gitignore               # Git ignore file
+```
+
 
 ### 🔹 Step 1: Clone the Repository
 ```bash
