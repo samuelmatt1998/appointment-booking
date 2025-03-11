@@ -10,6 +10,21 @@ Ensure you have the following installed:
 - Django
 - Django REST Framework
 - Node.js (optional, for frontend testing)
+### Prerequisites
+- 📂 Project Structure
+
+booking-appointment-system/
+│── app/                     # Django app directory
+│── booking/                 # Main Django project directory (settings, URLs, WSGI)
+│── frontend/                # Contains booking plugin files (JavaScript, HTML, CSS)
+│   ├── bookingPlugin.js            # JavaScript plugin for embedding the booking system
+│   ├── styles.css           # Stylesheet for the booking plugin
+│   ├── index.html           # Standalone frontend test page
+│── db.sqlite3               # SQLite database
+│── manage.py                # Django management script
+│── requirements.txt         # Dependencies for the project
+│── README.md                # Documentation
+│── .gitignore               # Git ignore file
 
 ### 🔹 Step 1: Clone the Repository
 ```bash
